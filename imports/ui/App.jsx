@@ -1,7 +1,5 @@
 import { Document, Page, Text } from '@react-pdf/renderer';
 
-import { Hello } from './Hello.jsx';
-import { Info } from './Info.jsx';
 import { PDFViewer } from '@react-pdf/renderer';
 import Pdf from './Pdf.jsx';
 import React from 'react';
@@ -19,7 +17,7 @@ export const App = () => (
       <Document>
         <Page>
           <Text>
-            You can edit this document and it will reload yoo
+            You can edit this text and it will reload
           </Text>
         </Page>
       </Document>

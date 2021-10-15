@@ -6,7 +6,7 @@ const Pdf = (props) => {
   return     <Document>
   <Page>
     <Text>
-      This one will not reload yooo
+      This one will not reload if you change this text
     </Text>
   </Page>
 </Document>
